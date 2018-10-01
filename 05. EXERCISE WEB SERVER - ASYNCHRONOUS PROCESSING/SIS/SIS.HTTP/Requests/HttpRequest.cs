@@ -2,6 +2,7 @@
 {
     using Enums;
     using Exceptions;
+    using Extensions;
     using Headers;
     using Headers.Contracts;
     using Requests.Contracts;
@@ -174,11 +175,16 @@
 
         private void ParseRequestMethod(string[] requestLine)
         {
-            var requestMethodString = requestLine[0];
+            var requestMethodString = requestLine[0].Capitalize();
 
             HttpRequestMethod requestMethod;
 
-            Enum.TryParse<HttpRequestMethod>(requestMethodString, out requestMethod);
+            bool successParseMethod = Enum.TryParse<HttpRequestMethod>(requestMethodString, out requestMethod);
+
+            if (!successParseMethod)
+            {
+                throw new BadRequestException();
+            }
 
             this.RequestMethod = requestMethod;
         }
