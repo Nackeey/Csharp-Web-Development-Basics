@@ -1,6 +1,7 @@
 ﻿namespace SIS.HTTP.Cookies
 { 
     using Cookies.Contracts;
+    using System.Collections;
     using System.Collections.Generic;
     using System.Linq;
 
@@ -23,6 +24,19 @@
         public HttpCookie GetCookie(string key) => this.cookies[key];
 
         public bool HasCookies() => this.cookies.Any();
+
+        public IEnumerator<HttpCookie> GetEnumerator()
+        {
+            foreach (var cookie in this.cookies)
+            {
+                yield return cookie.Value;
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
 
         public override string ToString()
         {

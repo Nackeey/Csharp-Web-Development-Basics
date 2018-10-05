@@ -31,21 +31,20 @@
             this.listener.Start();
             this.isRunning = true;
 
-            Console.WriteLine($"Server started at https://{LocalhostIpAddress}:{port}");
+            Console.WriteLine($"Server started at https://{LocalhostIpAddress}:{this.port}");
 
-            var task = Task.Run(this.ListenLoop);
-            task.Wait();
+            while (isRunning)
+            {
+                Console.WriteLine("Waiting for client...");
+                var client = listener.AcceptSocketAsync().Result;
+                Task.Run(() => Listen(client));
+            }
         }
 
-        public async Task ListenLoop()
+        public async void Listen(Socket client)
         {
-            while (this.isRunning)
-            {
-                var client = await this.listener.AcceptSocketAsync();
-                var connectionHandler = new ConnectionHandler(client, this.serverRoutingTable);
-                var responseTask = connectionHandler.ProcessRequestAsync();
-                responseTask.Wait();
-            }
+            var connectionHandler = new ConnectionHandler(client, this.serverRoutingTable);
+            await connectionHandler.ProcessRequestAsync();
         }
     }
 }

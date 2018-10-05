@@ -76,7 +76,7 @@
 
             foreach (var splitCookie in splitCookies)
             {
-                string[] cookieParts = splitCookie.Split("=", StringSplitOptions.RemoveEmptyEntries);
+                string[] cookieParts = splitCookie.Split('=', 2, StringSplitOptions.RemoveEmptyEntries);
 
                 if (cookieParts.Length != 2) continue;
 
