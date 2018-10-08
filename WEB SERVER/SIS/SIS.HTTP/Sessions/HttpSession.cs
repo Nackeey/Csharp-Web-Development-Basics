@@ -1,35 +1,46 @@
 ﻿namespace SIS.HTTP.Sessions
 {
     using Sessions.Contracts;
-    using System;
     using System.Collections.Generic;
 
     public class HttpSession : IHttpSession
     {
-        private readonly Dictionary<string, object> parameters;
+        private readonly Dictionary<string, object> sessionParameters;
 
         public HttpSession(string id)
         {
             this.Id = id;
-            this.parameters = new Dictionary<string, object>();
+            this.sessionParameters = new Dictionary<string, object>();
         }
 
         public string Id { get; }
 
-        public void AddParameter(string name, object parameter)
+        public object GetParameter(string name)
         {
-            if (string.IsNullOrEmpty(name))
-            {
-                throw new InvalidOperationException($"{name} cannot be null or empty!");
-            }
-
-            this.parameters.Add(name, parameter);
+            return this.sessionParameters.GetValueOrDefault(name, null);
         }
 
-        public void ClearParameters() => this.parameters.Clear();
+        public bool ContainsParameter(string name)
+        {
+            return this.sessionParameters.ContainsKey(name);
+        }
 
-        public bool ContainsParameter(string name) => this.parameters.ContainsKey(name);
+        public void AddParameter(string name, object parameter)
+        {
+            if (!this.sessionParameters.ContainsKey(name))
+            {
+                this.sessionParameters.Add(name, parameter);
+            }
+        }
 
-        public object GetParameter(string name) => this.parameters.GetValueOrDefault(name, null);
+        public void DeleteParameter(string name)
+        {
+            this.sessionParameters.Remove(name);
+        }
+
+        public void ClearParameters()
+        {
+            this.sessionParameters.Clear();
+        }
     }
 }

@@ -10,6 +10,8 @@
 
         void AddParameter(string name, object parameter);
 
+        void DeleteParameter(string name);
+
         void ClearParameters();
     }
 }

@@ -1,5 +1,5 @@
 ﻿namespace SIS.HTTP.Cookies
-{ 
+{
     using Cookies.Contracts;
     using System.Collections;
     using System.Collections.Generic;
@@ -16,8 +16,13 @@
 
         public void Add(HttpCookie cookie)
         {
-            this.cookies.Add(cookie.Key, cookie);
+            if (!this.ContainsCookie(cookie.Key))
+            {
+                this.cookies.Add(cookie.Key, cookie);
+            }
         }
+
+        public void Clear() => this.cookies.Clear();
 
         public bool ContainsCookie(string key) => this.cookies.ContainsKey(key);
 

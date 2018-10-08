@@ -11,5 +11,7 @@
         HttpCookie GetCookie(string key);
 
         bool HasCookies();
+
+        void Clear();
     }
 }
