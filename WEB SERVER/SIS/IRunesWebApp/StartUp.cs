@@ -20,6 +20,8 @@
             serverRoutingTable.Routes[HttpRequestMethod.Get]["/Users/Logout"] = request => new UsersController().Logout(request);
             serverRoutingTable.Routes[HttpRequestMethod.Get]["/Albums/Create"] = request => new AlbumsController().Create(request);
             serverRoutingTable.Routes[HttpRequestMethod.Get]["/Tracks/Create"] = request => new TracksController().Create(request);
+            serverRoutingTable.Routes[HttpRequestMethod.Get]["/Albums/Details"] = request => new AlbumsController().Details(request);
+            serverRoutingTable.Routes[HttpRequestMethod.Get]["/Tracks/Details"] = request => new TracksController().Details(request);
 
             serverRoutingTable.Routes[HttpRequestMethod.Post]["/Users/Login"] = request => new UsersController().PostLogin(request);
             serverRoutingTable.Routes[HttpRequestMethod.Post]["/Users/Register"] = request => new UsersController().PostRegister(request);

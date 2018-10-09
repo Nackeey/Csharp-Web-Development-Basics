@@ -10,6 +10,8 @@ namespace IRunesWebApp.Models
 
         public decimal Price { get; set; }
 
+        public virtual Album Album { get; set; }
+
         public virtual ICollection<TrackAlbum> Albums { get; set; } = new HashSet<TrackAlbum>();
     }
 }

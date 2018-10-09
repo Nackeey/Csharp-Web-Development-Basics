@@ -20,22 +20,24 @@ namespace IRunesWebApp.Migrations
 
             modelBuilder.Entity("IRunesWebApp.Models.Album", b =>
                 {
-                    b.Property<string>("id")
+                    b.Property<string>("Id")
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Cover");
 
                     b.Property<string>("Name");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.ToTable("Albums");
                 });
 
             modelBuilder.Entity("IRunesWebApp.Models.Track", b =>
                 {
-                    b.Property<string>("id")
+                    b.Property<string>("Id")
                         .ValueGeneratedOnAdd();
+
+                    b.Property<string>("AlbumId");
 
                     b.Property<string>("Link");
 
@@ -43,7 +45,9 @@ namespace IRunesWebApp.Migrations
 
                     b.Property<decimal>("Price");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
+
+                    b.HasIndex("AlbumId");
 
                     b.ToTable("Tracks");
                 });
@@ -54,7 +58,7 @@ namespace IRunesWebApp.Migrations
 
                     b.Property<string>("AlbumId");
 
-                    b.Property<int>("id");
+                    b.Property<int>("Id");
 
                     b.HasKey("TrackId", "AlbumId");
 
@@ -65,7 +69,7 @@ namespace IRunesWebApp.Migrations
 
             modelBuilder.Entity("IRunesWebApp.Models.User", b =>
                 {
-                    b.Property<string>("id")
+                    b.Property<string>("Id")
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Email");
@@ -74,9 +78,16 @@ namespace IRunesWebApp.Migrations
 
                     b.Property<string>("Username");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("IRunesWebApp.Models.Track", b =>
+                {
+                    b.HasOne("IRunesWebApp.Models.Album", "Album")
+                        .WithMany()
+                        .HasForeignKey("AlbumId");
                 });
 
             modelBuilder.Entity("IRunesWebApp.Models.TrackAlbum", b =>

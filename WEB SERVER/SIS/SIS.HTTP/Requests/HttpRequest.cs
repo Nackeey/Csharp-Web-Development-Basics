@@ -163,7 +163,10 @@
                 string[] parameterArguments = queryParameter
                     .Split('=', StringSplitOptions.RemoveEmptyEntries);
 
-                this.QueryData.Add(parameterArguments[0], parameterArguments[1]);
+                if (!this.QueryData.ContainsKey(parameterArguments[0]))
+                {
+                    this.QueryData.Add(parameterArguments[0], parameterArguments[1]);
+                }
             }
         }
 

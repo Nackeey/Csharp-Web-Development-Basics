@@ -6,3 +6,4 @@ C:\Users\s2k\source\repos\SIS\Services\obj\Debug\netcoreapp2.1\Services.Assembly
 C:\Users\s2k\source\repos\SIS\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfo.cs
 C:\Users\s2k\source\repos\SIS\Services\obj\Debug\netcoreapp2.1\Services.dll
 C:\Users\s2k\source\repos\SIS\Services\obj\Debug\netcoreapp2.1\Services.pdb
+C:\Users\s2k\source\repos\SIS\Services\obj\Debug\netcoreapp2.1\Services.csprojAssemblyReference.cache

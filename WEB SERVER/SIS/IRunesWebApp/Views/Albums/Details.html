@@ -3,7 +3,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Albums</title>
+    <title></title>
 </head>
 <body>
     <h1>IRunes</h1>
@@ -12,11 +12,17 @@
         <li><a href="/">Logout</a></li>
     </ul>
     <hr />
+    <div>
+        Name: {{Name}}
+    </div>
+
+        Price: {{Price}}
+    <br />
     <h3>Tracks</h3>
     <hr />
-    <a href="/Tracks/Create">Create Track</a>
+    <a href="/Tracks/Create?id={{AlbumId}}">Create Track</a>
     <hr />
-
+    {{tracks}}
     <hr />
     <hr />
     <a href="/Albums/All">Back To All</a>
