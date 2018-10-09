@@ -33,7 +33,7 @@
                 Link = link,
                 Price = price
             };
-
+            album.Tracks.Add(track);
             this.Context.Tracks.Add(track);
             this.Context.SaveChanges();
 

@@ -11,8 +11,8 @@
 
         public string Cover { get; set; }
 
-        public decimal Price => this.Tracks.Sum(t => t.Album.Price - (t.Album.Price * AlbumPriceReducer));
+        public decimal Price => this.Tracks.Sum(t => t.Price) * 0.87m;
 
-        public virtual ICollection<TrackAlbum> Tracks { get; set; } = new HashSet<TrackAlbum>();
+        public virtual ICollection<Track> Tracks { get; set; } = new HashSet<Track>();
     }
 }

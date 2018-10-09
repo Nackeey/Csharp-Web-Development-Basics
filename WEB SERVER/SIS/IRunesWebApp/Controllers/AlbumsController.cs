@@ -67,12 +67,11 @@
 
             var sb = new StringBuilder();
 
-            var tracks = this.Context.TracksAlbums.Where(a => a.AlbumId == album.Id).ToArray();
-            if (tracks.Length > 0)
+            if (album.Tracks.Any())
             {
                 foreach (var track in album.Tracks)
                 {
-                    sb.AppendLine($@"<a href=""/Tracks/Details?id={track.Track.Id}>{track.Track.Name}");
+                    sb.AppendLine($@"<a href=""/Tracks/Details?id={track.Id}"">{track.Name}</a>");
                 }
             }
             else
