@@ -22,7 +22,7 @@
 
         public IHttpResponse Login(IHttpRequest request)
         {
-            return this.View();
+            return this.View(request);
         }
 
         public IHttpResponse PostLogin(IHttpRequest request)
@@ -93,7 +93,7 @@
 
         public IHttpResponse Register(IHttpRequest request)
         {
-            return this.View();
+            return this.View(request);
         }
     }
 }

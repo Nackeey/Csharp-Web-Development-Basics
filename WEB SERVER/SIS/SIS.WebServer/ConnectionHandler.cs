@@ -1,10 +1,4 @@
-﻿using System;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
-using SIS.HTTP.Cookies;
-using SIS.HTTP.Enums;
-namespace SIS.WebServer
+﻿namespace SIS.WebServer
 {
     using HTTP.Exceptions;
     using HTTP.Requests;
@@ -12,11 +6,22 @@ namespace SIS.WebServer
     using HTTP.Sessions;
     using Results;
     using Routing;
+    using SIS.HTTP.Common;
+    using SIS.HTTP.Cookies;
+    using SIS.HTTP.Enums;
     using SIS.HTTP.Requests.Contracts;
     using SIS.HTTP.Responses.Contracts;
+    using System;
+    using System.IO;
+    using System.Linq;
+    using System.Net.Sockets;
+    using System.Text;
+    using System.Threading.Tasks;
 
     public class ConnectionHandler
     {
+        private const string RootDirectoryRelativePath = "../../..";
+
         private readonly Socket client;
 
         private readonly ServerRoutingTable serverRoutingTable;
@@ -62,13 +67,56 @@ namespace SIS.WebServer
 
         private IHttpResponse HandleRequest(IHttpRequest httpRequest)
         {
+            var isResourseRequest = this.IsResourseRequest(httpRequest);
+            if (isResourseRequest)
+            {
+                return this.HandleRequestResponse(httpRequest.Path);
+            }
+            
             if (!this.serverRoutingTable.Routes.ContainsKey(httpRequest.RequestMethod)
                 || !this.serverRoutingTable.Routes[httpRequest.RequestMethod].ContainsKey(httpRequest.Path))
-            {
+            { 
                 return new HttpResponse(HttpResponseStatusCode.NotFound);
             }
 
             return this.serverRoutingTable.Routes[httpRequest.RequestMethod][httpRequest.Path].Invoke(httpRequest);
+        }
+
+        private IHttpResponse HandleRequestResponse(string path)
+        {
+            var indexOfStartOfExtension = path.LastIndexOf('.');
+            var indexOfStartOfNameOfResource = path.LastIndexOf('/');
+            var requestPathExtension = path.Substring(indexOfStartOfExtension);
+            var resourceName = path
+                .Substring(indexOfStartOfNameOfResource);
+
+            var resourcePath = RootDirectoryRelativePath
+                + "/Resources"
+                + $"/{requestPathExtension.Substring(1)}"
+                + resourceName;
+
+            if (!File.Exists(resourcePath))
+            {
+                return new HttpResponse(HttpResponseStatusCode.NotFound);
+            }
+
+            var fileContent = File.ReadAllBytes(resourcePath);
+
+            return new InlineResourseResult(fileContent, HttpResponseStatusCode.Ok);
+        }
+
+        private bool IsResourseRequest(IHttpRequest httpRequest)
+        {
+            var requestPath = httpRequest.Path;
+            if (requestPath.Contains('.'))
+            {
+                var requestPathExtension = requestPath.Substring(requestPath.LastIndexOf('.'));
+                var resourseExtensions = GlobalConstants.ResourseExtensions.Contains(requestPathExtension);
+
+                return true;
+            }
+
+            return false;
         }
 
         private async Task PrepareResponse(IHttpResponse httpResponse)

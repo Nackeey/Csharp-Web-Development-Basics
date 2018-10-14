@@ -1,30 +1,19 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title>Login</title>
-</head>
-<body>
-    <h1>IRunes</h1>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/Users/Register">Register</a></li>
-    </ul>
-    <hr />
-    <h1>Login</h1>
-    <form method="post" action"/Users/Login">
-        <div>
-            Username/Email <input type="text" name="username" value="" />
+﻿<div class="container">
+    <h1 class="text-center" style="color:green;">Login</h1>
+    <hr class="col-md-7" />
+    <div align="center">
+        <form method="post" action"/Users/Login">
+        <div class="form-group col-md-7">
+            <label for="login" style="color: black;">Username / Email</label>
+            <input class="form-control" type="text" name="username" id="login" placeholder="Username / Email" />
+            <br />
+            <label for="password" style="color: black;">Password</label>
+            <input class="form-control" type="password" name="password" id="password" placeholder="Password" />
+            <br />
+            <div class="text-center">
+                <input type="submit" class="btn btn-success" value="Login" />
+            </div>
         </div>
-        <div>
-            Password <input type="password" name="password" value="" />
-        </div>
-            <input type="submit" value="Login" />
-    </form>
-    <hr />
-    <footer>
-        <p><strong>CopyRight &copy; Sanity Design Studios. All rights reserved.</strong></p>
-    </footer>
-</body>
-</html>
+        </form>
+    </div>
+</div>

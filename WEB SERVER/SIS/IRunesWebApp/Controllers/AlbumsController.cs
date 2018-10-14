@@ -37,7 +37,7 @@
                 this.ViewBag["albumsList"] = "There are currently no albums.";
             }
 
-            return this.View();
+            return this.View(request);
         }
 
         public IHttpResponse PostCreate(IHttpRequest request)
@@ -85,7 +85,7 @@
             this.ViewBag["Price"] = album.Price.ToString("F2");
             this.ViewBag["AlbumId"] = albumId;
         
-            return this.View();
+            return this.View(request);
         }
 
         public IHttpResponse Create(IHttpRequest request)
@@ -95,7 +95,7 @@
                 return new RedirectResult("/Users/Login");
             }
 
-            return this.View();
+            return this.View(request);
         }
     }
 }

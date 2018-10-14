@@ -29,7 +29,7 @@
 
         public bool IsAuthenticated(IHttpRequest request)
         {
-           return request.Session.ContainsParameter("username");
+            return request.Session.ContainsParameter("username");
         }
 
         public void SignUser(string username, IHttpRequest request)
@@ -42,8 +42,19 @@
             request.Cookies.Add(cookie);
         }
 
-        protected IHttpResponse View([CallerMemberName] string viewName = "")
+        protected IHttpResponse View(IHttpRequest request, [CallerMemberName] string viewName = "")
         {
+            var layoutView = string.Empty;
+
+            if (this.IsAuthenticated(request))
+            {
+                layoutView = "../../../Views/_Layout.html";
+            }
+            else
+            {
+                layoutView = "../../../Views/_LayoutNoUserLoggedIn.html";
+            }
+
             string filePath = $"../../../Views/{this.GetControllerName()}/{viewName}.html";
 
             if (!File.Exists(filePath))
@@ -51,20 +62,31 @@
                 return new BadRequestResult($"View {viewName} not found.", HttpResponseStatusCode.NotFound);
             }
 
-            var fileContent = File.ReadAllText(filePath);
+            string viewContent = BuildViewContent(filePath);
+
+            var viewLayout = File.ReadAllText(layoutView);
+
+            var view = viewLayout.Replace("@RenderBody()", viewContent);
+
+            var response = new HtmlResult(view, HttpResponseStatusCode.Ok);
+
+            return response;
+        }
+
+        private string BuildViewContent(string filePath)
+        {
+            var viewContent = File.ReadAllText(filePath);
 
             foreach (var viewBagKey in ViewBag.Keys)
             {
                 var dynamicDataPlaceholder = $"{{{{{viewBagKey}}}}}";
-                if (fileContent.Contains(dynamicDataPlaceholder))
+                if (viewContent.Contains(dynamicDataPlaceholder))
                 {
-                    fileContent = fileContent.Replace(dynamicDataPlaceholder, this.ViewBag[viewBagKey]);
+                    viewContent = viewContent.Replace(dynamicDataPlaceholder, this.ViewBag[viewBagKey]);
                 }
             }
 
-            var response = new HtmlResult(fileContent, HttpResponseStatusCode.Ok);
-
-            return response;
+            return viewContent;
         }
 
         private string GetControllerName()

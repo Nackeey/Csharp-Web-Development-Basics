@@ -1,34 +1,23 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
-    <h1>IRunes</h1>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">Logout</a></li>
-    </ul>
-    <hr />
-    <div>
-        Name: {{Name}}
+﻿<div class="container">
+    <div class="text-center" style="color: black;">
+        <h3>
+            Tracks
+        </h3>
+        <ol>
+            <li>
+                {{tracks}}
+            </li>
+        </ol>
     </div>
-
-        Price: {{Price}}
-    <br />
-    <h3>Tracks</h3>
-    <hr />
-    <a href="/Tracks/Create?id={{AlbumId}}">Create Track</a>
-    <hr />
-    {{tracks}}
-    <hr />
-    <hr />
-    <a href="/Albums/All">Back To All</a>
-    <hr />
-    <footer>
-        <p><strong>CopyRight &copy; Sanity Design Studios. All rights reserved.</strong></p>
-    </footer>
-</body>
-</html>
+    <div>
+        <div style="color: black;">
+            Name {{Name}}
+            <br />
+            Price {{Price}}
+        </div>
+        <div class="col-md-4">
+            <a class="btn btn-success" href="/Tracks/Create?id={{AlbumId}}">Create Track</a>
+            <a class="btn btn-success" href="/Albums/All">Back To All</a>
+        </div>
+    </div>
+</div>
