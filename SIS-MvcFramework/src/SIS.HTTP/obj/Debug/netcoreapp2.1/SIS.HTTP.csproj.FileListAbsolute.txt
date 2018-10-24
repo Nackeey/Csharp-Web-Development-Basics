@@ -1,0 +1,9 @@
+C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.HTTP\bin\Debug\netcoreapp2.1\SIS.HTTP.deps.json
+C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.HTTP\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.HTTP\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.csproj.CoreCompileInputs.cache
+C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.AssemblyInfoInputs.cache
+C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.AssemblyInfo.cs
+C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.dll
+C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.pdb
+C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.HTTP\obj\Debug\netcoreapp2.1\SIS.HTTP.csprojAssemblyReference.cache
