@@ -233,6 +233,18 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Tools/2.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "2.1.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -2186,6 +2198,28 @@
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.2.1.4.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/2.1.4": {
+      "sha512": "+mMAfPku3xFvFgzEYtFYZ6yek8EJz6NJq6AhO/yaqW2RS+6INWS54dfhy3qOddX2EXqE1ZEhkz5L1Zf1F8rAdQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/2.1.4",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/_._",
+        "microsoft.entityframeworkcore.tools.2.1.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PowerShell2.psd1",
+        "tools/EntityFrameworkCore.PowerShell2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/2.1.1": {
@@ -6439,11 +6473,15 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\Apps\\SIS.MvcFramework\\SIS.MvcFramework.csproj",
+      "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\Apps\\SIS.WebServer\\SIS.WebServer.csproj",
       "Microsoft.EntityFrameworkCore >= 2.1.4",
       "Microsoft.EntityFrameworkCore.Design >= 2.1.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.4",
+      "Microsoft.EntityFrameworkCore.Tools >= 2.1.4",
       "Microsoft.NETCore.App >= 2.1.0",
-      "SIS.MvcFramework >= 1.0.0"
+      "SIS.MvcFramework >= 1.0.0",
+      "SIS.WebServer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6476,8 +6514,17 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\Apps\\SIS.MvcFramework\\SIS.MvcFramework.csproj": {
+              "projectPath": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\Apps\\SIS.MvcFramework\\SIS.MvcFramework.csproj"
+            },
+            "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\Apps\\SIS.WebServer\\SIS.WebServer.csproj": {
+              "projectPath": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\Apps\\SIS.WebServer\\SIS.WebServer.csproj"
+            },
             "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj": {
               "projectPath": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj"
+            },
+            "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.WebServer\\SIS.WebServer.csproj": {
+              "projectPath": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.WebServer\\SIS.WebServer.csproj"
             }
           }
         }
@@ -6503,6 +6550,12 @@
             "target": "Package",
             "version": "[2.1.4, )"
           },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.1.4, )"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "[2.1.0, )",
@@ -6516,5 +6569,25 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\Apps\\SIS.MvcFramework\\SIS.MvcFramework.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\Apps\\SIS.MvcFramework\\SIS.MvcFramework.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\Apps\\SIS.WebServer\\SIS.WebServer.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\Apps\\SIS.WebServer\\SIS.WebServer.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }

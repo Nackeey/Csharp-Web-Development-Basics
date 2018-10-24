@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using SIS.MvcFramework;
-using SIS.MvcFramework.Logger;
-using SIS.MvcFramework.Services;
-
-namespace MishMashWebApp
+﻿namespace MishMashWebApp
 {
+    using SIS.MvcFramework;
+    using SIS.MvcFramework.Logger;
+    using SIS.MvcFramework.Services;
+
     class Startup : IMvcApplication
     {
         public void Configure()

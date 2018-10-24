@@ -64,7 +64,7 @@ namespace MishMashWebApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tags");
+                    b.ToTable("Tag");
                 });
 
             modelBuilder.Entity("MishMashWebApp.Models.User", b =>

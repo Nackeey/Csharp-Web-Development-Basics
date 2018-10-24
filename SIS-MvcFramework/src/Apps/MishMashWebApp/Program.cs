@@ -1,8 +1,7 @@
-﻿using System;
-using SIS.MvcFramework;
-
-namespace MishMashWebApp
+﻿namespace MishMashWebApp
 {
+    using SIS.MvcFramework;
+
     class Program
     {
         static void Main(string[] args)

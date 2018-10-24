@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MishMashWebApp.Models
+﻿namespace MishMashWebApp.Models
 {
+    using MishMashWebApp.Models.Enums;
+    using System.Collections.Generic;
+
     public class Channel
     {
         public Channel()
         {
-            this.Tags = new HashSet<ChannelTag>();
             this.Followers = new HashSet<UserInChannel>();
+            this.Tags = new HashSet<ChannelTag>();
         }
 
         public int Id { get; set; }
