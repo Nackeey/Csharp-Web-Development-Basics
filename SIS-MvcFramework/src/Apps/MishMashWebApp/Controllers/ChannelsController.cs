@@ -132,7 +132,7 @@ namespace MishMashWebApp.Controllers
                 Name = model.Name,
                 Description = model.Description,
                 Type = type,
-            };
+            }; 
 
             if (!string.IsNullOrWhiteSpace(model.Tags))
             {
