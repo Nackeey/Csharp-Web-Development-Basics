@@ -16,7 +16,7 @@ namespace CakesWebApp.Data
         protected override void OnConfiguring(
             DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-3OS7LSS\\SQLEXPRESS;Database=Cakes;Integrated Security=True;").UseLazyLoadingProxies();
+            optionsBuilder.UseSqlServer("Server=.;Database=Cakes;Integrated Security=True;").UseLazyLoadingProxies();
         }
     }
 }

@@ -7470,11 +7470,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.MvcFramework.Tests\\SIS.MvcFramework.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\s2k\\Downloads\\SIS-MvcFramework\\SIS-MvcFramework\\src\\SIS.MvcFramework.Tests\\SIS.MvcFramework.Tests.csproj",
       "projectName": "SIS.MvcFramework.Tests",
-      "projectPath": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.MvcFramework.Tests\\SIS.MvcFramework.Tests.csproj",
+      "projectPath": "C:\\Users\\s2k\\Downloads\\SIS-MvcFramework\\SIS-MvcFramework\\src\\SIS.MvcFramework.Tests\\SIS.MvcFramework.Tests.csproj",
       "packagesPath": "C:\\Users\\s2k\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.MvcFramework.Tests\\obj\\",
+      "outputPath": "C:\\Users\\s2k\\Downloads\\SIS-MvcFramework\\SIS-MvcFramework\\src\\SIS.MvcFramework.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7493,8 +7493,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj": {
-              "projectPath": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj"
+            "C:\\Users\\s2k\\Downloads\\SIS-MvcFramework\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj": {
+              "projectPath": "C:\\Users\\s2k\\Downloads\\SIS-MvcFramework\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj"
             }
           }
         }

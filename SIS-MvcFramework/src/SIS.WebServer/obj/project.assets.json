@@ -703,11 +703,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.WebServer\\SIS.WebServer.csproj",
+      "projectUniqueName": "C:\\Users\\s2k\\Downloads\\SIS-MvcFramework\\SIS-MvcFramework\\src\\SIS.WebServer\\SIS.WebServer.csproj",
       "projectName": "SIS.WebServer",
-      "projectPath": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.WebServer\\SIS.WebServer.csproj",
+      "projectPath": "C:\\Users\\s2k\\Downloads\\SIS-MvcFramework\\SIS-MvcFramework\\src\\SIS.WebServer\\SIS.WebServer.csproj",
       "packagesPath": "C:\\Users\\s2k\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.WebServer\\obj\\",
+      "outputPath": "C:\\Users\\s2k\\Downloads\\SIS-MvcFramework\\SIS-MvcFramework\\src\\SIS.WebServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -726,8 +726,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj": {
-              "projectPath": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj"
+            "C:\\Users\\s2k\\Downloads\\SIS-MvcFramework\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj": {
+              "projectPath": "C:\\Users\\s2k\\Downloads\\SIS-MvcFramework\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj"
             }
           }
         }

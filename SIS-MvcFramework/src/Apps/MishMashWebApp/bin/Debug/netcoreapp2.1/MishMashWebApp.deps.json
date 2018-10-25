@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "ee25617c9e8e7844a38853e9fea5e92e95f148c4"
+    "signature": "faff51ac5593a40a65e02b0971f589be6de8dc1c"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,9 +11,7 @@
           "Microsoft.EntityFrameworkCore": "2.1.4",
           "Microsoft.EntityFrameworkCore.Design": "2.1.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.4",
-          "Microsoft.EntityFrameworkCore.Tools": "2.1.4",
-          "SIS.MvcFramework": "1.0.0",
-          "SIS.WebServer": "1.0.0"
+          "SIS.MvcFramework": "1.0.0"
         },
         "runtime": {
           "MishMashWebApp.dll": {}
@@ -226,11 +224,6 @@
             "assemblyVersion": "2.1.4.0",
             "fileVersion": "2.1.4.18263"
           }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Tools/2.1.4": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "2.1.4"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/2.1.1": {
@@ -1342,13 +1335,6 @@
       "sha512": "sha512-pVQpP3bOv26GLn6Ff5ocS1ibP+kqkjh6Wz14xdxLIVIQBVp+eb/3jaHqkvBJS+fXMfLyyAnHCNALyaTvp9bRZA==",
       "path": "microsoft.entityframeworkcore.sqlserver/2.1.4",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.2.1.4.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Tools/2.1.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-+mMAfPku3xFvFgzEYtFYZ6yek8EJz6NJq6AhO/yaqW2RS+6INWS54dfhy3qOddX2EXqE1ZEhkz5L1Zf1F8rAdQ==",
-      "path": "microsoft.entityframeworkcore.tools/2.1.4",
-      "hashPath": "microsoft.entityframeworkcore.tools.2.1.4.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/2.1.1": {
       "type": "package",

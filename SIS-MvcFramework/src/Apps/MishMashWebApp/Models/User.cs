@@ -1,8 +1,9 @@
-﻿namespace MishMashWebApp.Models
-{
-    using MishMashWebApp.Models.Enums;
-    using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
+namespace MishMashWebApp.Models
+{
     public class User
     {
         public User()
@@ -18,8 +19,8 @@
 
         public string Email { get; set; }
 
-        public Role Role { get; set; }
-
         public virtual ICollection<UserInChannel> Channels { get; set; }
+
+        public Role Role { get; set; }
     }
 }

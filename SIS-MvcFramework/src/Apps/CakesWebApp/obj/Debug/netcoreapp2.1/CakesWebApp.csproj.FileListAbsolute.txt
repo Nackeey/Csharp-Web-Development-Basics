@@ -1,30 +1,30 @@
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\AddCakes.html
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\CakeById.html
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\Error.html
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\HelloUser.html
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\Index.html
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\Login.html
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\OrderById.html
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\OrdersList.html
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\Profile.html
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\Register.html
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\Search.html
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\_Layout.html
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\CakesWebApp.deps.json
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\CakesWebApp.runtimeconfig.json
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\CakesWebApp.runtimeconfig.dev.json
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\CakesWebApp.dll
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\CakesWebApp.pdb
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\SIS.MvcFramework.dll
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\SIS.MvcFramework.pdb
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.csprojAssemblyReference.cache
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.csproj.CoreCompileInputs.cache
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.AssemblyInfoInputs.cache
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.AssemblyInfo.cs
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.csproj.CopyComplete
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.dll
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.pdb
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\AddCakes.html
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\CakeById.html
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\Error.html
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\HelloUser.html
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\Index.html
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\Login.html
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\OrderById.html
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\OrdersList.html
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\Profile.html
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\Register.html
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\Search.html
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\Views\_Layout.html
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\CakesWebApp.deps.json
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\CakesWebApp.runtimeconfig.json
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\CakesWebApp.runtimeconfig.dev.json
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\CakesWebApp.dll
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\CakesWebApp.pdb
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\SIS.MvcFramework.dll
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\SIS.MvcFramework.pdb
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.csprojAssemblyReference.cache
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.csproj.CoreCompileInputs.cache
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.AssemblyInfoInputs.cache
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.AssemblyInfo.cs
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.csproj.CopyComplete
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.dll
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\Apps\CakesWebApp\obj\Debug\netcoreapp2.1\CakesWebApp.pdb

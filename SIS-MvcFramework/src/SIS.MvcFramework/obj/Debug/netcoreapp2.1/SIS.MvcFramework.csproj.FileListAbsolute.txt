@@ -1,14 +1,14 @@
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.MvcFramework.deps.json
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.MvcFramework.dll
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.MvcFramework.pdb
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csprojAssemblyReference.cache
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csproj.CoreCompileInputs.cache
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.AssemblyInfoInputs.cache
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.AssemblyInfo.cs
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csproj.CopyComplete
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.dll
-C:\Users\s2k\OneDrive\Desktop\C# Web Development Basics - септември 2018\SIS-MvcFramework\src\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.pdb
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.MvcFramework.deps.json
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.MvcFramework.dll
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.MvcFramework.pdb
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csprojAssemblyReference.cache
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csproj.CoreCompileInputs.cache
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.AssemblyInfoInputs.cache
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.AssemblyInfo.cs
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csproj.CopyComplete
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.dll
+C:\Users\s2k\Downloads\SIS-MvcFramework\SIS-MvcFramework\src\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.pdb

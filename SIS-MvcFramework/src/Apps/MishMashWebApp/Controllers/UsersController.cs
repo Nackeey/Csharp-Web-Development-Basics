@@ -1,15 +1,14 @@
-﻿namespace MishMashWebApp.Controllers
-{
-    using MishMashWebApp.Models;
-    using MishMashWebApp.Models.Enums;
-    using SIS.HTTP.Cookies;
-    using SIS.HTTP.Responses;
-    using SIS.MvcFramework;
-    using SIS.MvcFramework.Services;
-    using System;
-    using System.Linq;
-    using ViewModels.Users;
+﻿using System;
+using System.Linq;
+using MishMashWebApp.Models;
+using MishMashWebApp.ViewModels.Users;
+using SIS.HTTP.Cookies;
+using SIS.HTTP.Responses;
+using SIS.MvcFramework;
+using SIS.MvcFramework.Services;
 
+namespace MishMashWebApp.Controllers
+{
     public class UsersController : BaseController
     {
         private readonly IHashService hashService;
@@ -44,7 +43,7 @@
         {
             var hashedPassword = this.hashService.Hash(model.Password);
 
-            var user = this.Context.Users.FirstOrDefault(x =>
+            var user = this.Db.Users.FirstOrDefault(x =>
                 x.Username == model.Username.Trim() &&
                 x.Password == hashedPassword);
 
@@ -75,7 +74,12 @@
                 return this.BadRequestError("Please provide valid username with length of 4 or more characters.");
             }
 
-            if (this.Context.Users.Any(x => x.Username == model.Username.Trim()))
+            if (string.IsNullOrWhiteSpace(model.Email) || model.Email.Trim().Length < 4)
+            {
+                return this.BadRequestError("Please provide valid email with length of 4 or more characters.");
+            }
+
+            if (this.Db.Users.Any(x => x.Username == model.Username.Trim()))
             {
                 return this.BadRequestError("User with the same name already exists.");
             }
@@ -93,27 +97,31 @@
             // Hash password
             var hashedPassword = this.hashService.Hash(model.Password);
 
+            var role = Role.User;
+            if (!this.Db.Users.Any())
+            {
+                role = Role.Admin;
+            }
+
             // Create user
             var user = new User
             {
                 Username = model.Username.Trim(),
                 Email = model.Email.Trim(),
                 Password = hashedPassword,
-                Role = Role.User
+                Role = role,
             };
-            this.Context.Users.Add(user);
+            this.Db.Users.Add(user);
 
             try
             {
-                this.Context.SaveChanges();
+                this.Db.SaveChanges();
             }
             catch (Exception e)
             {
                 // TODO: Log error
                 return this.ServerError(e.Message);
             }
-
-            // TODO: Login
 
             // Redirect
             return this.Redirect("/Users/Login");

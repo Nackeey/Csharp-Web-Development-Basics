@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj",
+      "projectUniqueName": "C:\\Users\\s2k\\Downloads\\SIS-MvcFramework\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj",
       "projectName": "SIS.HTTP",
-      "projectPath": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj",
+      "projectPath": "C:\\Users\\s2k\\Downloads\\SIS-MvcFramework\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj",
       "packagesPath": "C:\\Users\\s2k\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s2k\\OneDrive\\Desktop\\C# Web Development Basics - септември 2018\\SIS-MvcFramework\\src\\SIS.HTTP\\obj\\",
+      "outputPath": "C:\\Users\\s2k\\Downloads\\SIS-MvcFramework\\SIS-MvcFramework\\src\\SIS.HTTP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
